@@ -1,5 +1,5 @@
 EXPLORACIÓN DE DATOS
-Forma del dataset: (20640, 10)
+Forma del dataset: (19675, 10)
 
 Columnas:
 - longitude (float64)
@@ -14,4 +14,4 @@ Columnas:
 - ocean_proximity (object)
 
 Valores faltantes:
-- total_bedrooms: 207 (1.00%)
+- total_bedrooms: 200 (1.02%)

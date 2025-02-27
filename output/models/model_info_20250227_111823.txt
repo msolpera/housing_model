@@ -1,0 +1,26 @@
+INFORMACIÓN DEL MODELO
+=====================
+
+Tipo de modelo: GradientBoosting
+Archivo del modelo: output\models\housing_model_GradientBoosting_20250227_111823.pkl
+Archivo del pipeline: output\models\preprocessing_pipeline_20250227_111823.pkl
+Fecha de entrenamiento: 20250227_111823
+RMSE (Validación cruzada): 43087.75
+
+Características utilizadas:
+- longitude
+- latitude
+- housing_median_age
+- total_rooms
+- total_bedrooms
+- population
+- households
+- median_income
+- rooms_per_household
+- population_per_household
+- bedrooms_per_room
+- ocean_proximity_<1H OCEAN
+- ocean_proximity_INLAND
+- ocean_proximity_ISLAND
+- ocean_proximity_NEAR BAY
+- ocean_proximity_NEAR OCEAN

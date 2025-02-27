@@ -91,6 +91,7 @@ class HousingPriceModel:
             csv_path = self.data_path / "housing.csv"
             logger.info(f"Cargando datos desde {csv_path}")
             self.housing = pd.read_csv(csv_path)
+            self.housing = self.housing[self.housing['median_house_value']<=500000].reset_index(drop=True)
             logger.info(f"Datos cargados exitosamente. Shape: {self.housing.shape}")
             return self.housing
         except Exception as e:
@@ -103,6 +104,7 @@ class HousingPriceModel:
             self.load_data()
             
         logger.info("Iniciando exploración de datos...")
+        
         
         # Información básica
         info = {

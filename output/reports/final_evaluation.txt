@@ -2,10 +2,10 @@ EVALUACIÓN DEL MODELO FINAL
 =========================
 
 Modelo: GradientBoosting
-RMSE: 45423.59
-MAE: 30041.15
-R²: 0.8417
+RMSE: 40891.25
+MAE: 27845.30
+R²: 0.8195
 
 Interpretación:
-- El error cuadrático medio (RMSE) de 45423.59 significa que el modelo tiene un error promedio de aproximadamente $45424 en las predicciones de precios de vivienda.
-- El coeficiente de determinación (R²) de 0.8417 indica que el modelo explica aproximadamente el 84.2% de la varianza en los precios de vivienda.
+- El error cuadrático medio (RMSE) de 40891.25 significa que el modelo tiene un error promedio de aproximadamente $40891 en las predicciones de precios de vivienda.
+- El coeficiente de determinación (R²) de 0.8195 indica que el modelo explica aproximadamente el 81.9% de la varianza en los precios de vivienda.
